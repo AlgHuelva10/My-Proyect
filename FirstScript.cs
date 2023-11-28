@@ -7,13 +7,14 @@ public class FirstScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Imprimir "Crikets" en la consola
-        print("Crikets");
+        //Destruir "GameObject"
+        destroy(gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       //Imprimir "Crikets" en la consola
+        print("Crikets"); 
     }
 }
