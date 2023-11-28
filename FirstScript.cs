@@ -7,8 +7,8 @@ public class FirstScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("Hello World");
-        print(1);
+        //Imprimir "Crikets" en la consola
+        print("Crikets");
     }
 
     // Update is called once per frame
